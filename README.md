@@ -1,4 +1,4 @@
-# Update Sets for Clone Data Preservers in Servicenow
+# Update Sets for Clone Data Preservers in ServiceNow
 
 ## Getting Started
 This repo currently contains two update sets- one for V4 of the Pagerduty App, and one for V5 of the PagerDuty app. Please use the update set that corresponds to your version in ServiceNow. 

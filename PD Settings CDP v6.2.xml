@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-03-18 19:26:53">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Preserves PagerDuty Settings Page data for v6.2</description>
+<inserted/>
+<name>PD CDP v6.2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>5fcc48831ba74010ccb1dd3cdc4bcb78</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-03-18 19:26:53</sys_created_on>
+<sys_id>c45fcc071ba74010ccb1dd3cdc4bcb98</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-03-18 19:26:53</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>clone_data_preserver_d47d80c31ba74010ccb1dd3cdc4bcb9b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="clone_data_preserver"><clone_data_preserver action="INSERT_OR_UPDATE"><condition table="sys_properties">name=x_pd_integration.api_key^NQname=x_pd_integration.assign_on_ack_only^NQname=x_pd_integration.auto_creation_pd_teams^NQname=x_pd_integration.auto_provision_grmembers^NQname=x_pd_integration.auto_provision_group_schedules^NQname=x_pd_integration.auto_provision_users^NQname=x_pd_integration.changerequest_resolved_state_value^NQname=x_pd_integration.close_incident_on_unknown^NQname=x_pd_integration.config_file_tables^NQname=x_pd_integration.default_service^NQname=x_pd_integration.default_user^NQname=x_pd_integration.default_user_role^NQname=x_pd_integration.enable_conference_bridge^NQname=x_pd_integration.enable_response_mobilizer^NQname=x_pd_integration.glide.script.block.client.globals^NQname=x_pd_integration.incident_body_template^NQname=x_pd_integration.instance_url^NQname=x_pd_integration.logging.verbosity^NQname=x_pd_integration.resolved_state_value^NQname=x_pd_integration.rest_api_endpoint^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="x_pd_integration.api_key"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.assign_on_ack_only"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.auto_creation_pd_teams"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.auto_provision_grmembers"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.auto_provision_group_schedules"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.auto_provision_users"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.changerequest_resolved_state_value"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.close_incident_on_unknown"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.config_file_tables"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.default_service"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.default_user"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.default_user_role"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.enable_conference_bridge"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.enable_response_mobilizer"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.glide.script.block.client.globals"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.incident_body_template"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.instance_url"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.logging.verbosity"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.resolved_state_value"/><item endquery="false" field="name" goto="false" newquery="true" operator="=" or="false" value="x_pd_integration.rest_api_endpoint"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><name>PagerDuty Settings Preserver </name><sys_class_name>clone_data_preserver</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-18 19:26:06</sys_created_on><sys_id>d47d80c31ba74010ccb1dd3cdc4bcb9b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PagerDuty Settings Preserver </sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>clone_data_preserver_d47d80c31ba74010ccb1dd3cdc4bcb9b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-18 19:26:06</sys_updated_on><table>sys_properties</table><theme>false</theme></clone_data_preserver></record_update>]]></payload>
+<payload_hash>5551870</payload_hash>
+<remote_update_set display_value="PD CDP v6.2">c45fcc071ba74010ccb1dd3cdc4bcb98</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-03-18 19:26:53</sys_created_on>
+<sys_id>0c5fcc071ba74010ccb1dd3cdc4bcb98</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>170ef1c2fa70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-03-18 19:26:53</sys_updated_on>
+<table>sys_properties</table>
+<target_name>PagerDuty Settings Preserver </target_name>
+<type>Clone Data Preserver</type>
+<update_domain>global</update_domain>
+<update_guid>ec2f0c07b4a740104478c4ca71a032c4</update_guid>
+<update_guid_history>ec2f0c07b4a740104478c4ca71a032c4:5551870</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
